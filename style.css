@@ -1,0 +1,83 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  min-height: 600px;
+  background-image: url("https://i.postimg.cc/Df6KVD5s/Hacker-pixel.png");
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+.card {
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff80;
+  border-radius: 4%;
+  box-shadow: 6px 3px 3px 0px #000000;
+  width: 60%;
+  height: 40%;
+  margin-top: 8px;
+}
+
+p{
+  color: #000000;
+  text-align: center;
+  margin-top: 16px;
+}
+
+.page-title {
+  color: #000000;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #000000;
+  margin-top: 16px;
+}
+
+@media (max-height: 950px) {
+  body {
+    min-height: 800px;
+  }
+  .card{
+    width: 100%;
+  }
+}
+
+input {
+  background-color: rgba(255, 255, 255, 0.5);
+  border: none;
+  height: 35px;
+  outline: none;
+  border-radius: 15px;
+  margin-top: 15px;
+  color: black;
+  padding-left: 5px;
+}
+
+button {
+  padding: 6px;
+  margin-top: 15px;
+  background: linear-gradient(to right, #1d68d8, #978fff);
+  border: none;
+  border-radius: 12px;
+  width: 120px;
+  color: #000000;
+  cursor: pointer;
+  transition: ease 1s;
+}
+
+button:hover{
+  transform: scale(1.05);
+}
+
+.divMensagem{
+  font-size: larger;
+  margin-top: 40px;
+}
